@@ -1,0 +1,45 @@
+@media  screen and (min-width: 1020px){
+
+    header{
+        flex-direction: row-reverse;
+        justify-content: center;
+        
+    }
+
+    section.section-form{
+        width: 40vw;
+        margin: 0px 20px;
+    }
+
+    section.section-imagem-1{
+        max-height: 30vh;
+        width: 20%;
+    }
+    img.imagem-1{   
+        height: 80%;
+        width: 80%;
+    }
+
+    div.dicas{
+        width: 31%;
+    }
+
+    section#section-dados{
+        flex-direction: row;
+        align-items: center;
+    }
+    div.div-dados{
+        width: 40vw;
+    }
+
+    img.imagem-2{
+        width: 20vw;
+        min-width: 335px;
+        border-radius: 20px;
+        margin: 10px 25px;
+    }
+
+    section.section-form{
+        width: 50%;
+    }
+}

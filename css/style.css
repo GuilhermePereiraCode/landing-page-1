@@ -1,0 +1,192 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+    transition: .2s;
+    transition-timing-function: ease;
+}
+
+/*------------------------ TAGS ------------------------*/
+header, aside{
+    margin-top: 20px;
+    display: flex;
+    background-image: linear-gradient(to right, rgb(185, 30, 30), black);
+    color: white;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.452);
+    max-height: 1000px;
+}
+img.imagem-1{
+    height: 120px;
+    border-radius: 50%;
+}
+h1{
+    margin: 20px 12px;
+    font-weight: bolder;
+    font-size: 1.6em;
+}
+
+.section-form > p{
+    margin: 20px 10px;
+    font-size: large;
+}
+form{
+    display: inline-block;
+    width: 70%;
+}
+form > div > span.material-symbols-outlined{
+    line-height: normal;
+    margin-top: 6.5px;
+}
+
+div.div-input{
+    background-image: linear-gradient(to left, rgb(185, 30, 30), black);
+    padding: 5px;
+    margin: 5px;
+    border-radius: 7px;
+    display: inline-block;
+    width: 80%;
+    min-width: 344px;
+}
+div input{
+    vertical-align: top;
+    width: calc(100% - 30px);
+    height: 40px;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+div label{
+    display: none;
+}
+input#botao-inscrever{
+    cursor: pointer;
+    background-color: rgb(47, 255, 64);
+    width: 45%;
+    min-width: 194px;
+    font-size: 16px;
+}
+
+article#container-vantagens{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    max-width: 1100px;
+    text-align: center;
+    margin: 15px auto;
+    color: darkred;
+}
+article > h2{
+    margin: 15px
+}
+
+div.vantagens{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border: 2px solid darkred;
+    border-radius: 10px;
+    margin: 10px;
+    padding: 5px;
+    height: 115px;
+    width: 47%;
+    flex-grow: 1;
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.445);
+}
+
+article > div > span.material-symbols-outlined{
+    font-size: 2em;
+    line-height: normal;
+}
+article > div > p{
+    margin: 10px 5px;
+    font-size: 1.1em;
+}
+
+section#section-main{
+    background-color: rgba(179, 79, 79, 0.63);
+    padding: 20px 10px;
+    color: black;
+    text-align: center;
+}
+
+section#section-dicas{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    max-width: 1190px;
+    margin: auto;
+    color: white;
+    text-align: center;
+}
+
+div.dicas{
+    display: inline-block;
+    background-image: linear-gradient(to bottom, rgb(185, 30, 30), black);
+    max-width: 90%;
+    margin: 10px;
+    padding: 25px;
+    border-radius: 17px;
+    box-shadow: 0px 0px 4px 1px rgba(0, 0, 0, 0.226);
+}
+div.dicas > h3{
+    margin: 10px 0px;
+    font-size: 1.5em;
+}
+div.dicas > p{
+    font-size: 1.1em;
+    line-height: 1.4em;
+}
+
+section#section-dados{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+img.imagem-2{
+    width: 100%;
+    max-height: 516px;
+    border-radius: 0px 0px 20px 20px;
+    margin-bottom: 20px;
+}
+
+section#section-dados p{
+    margin: 10px 10px;
+    text-indent: 15px;
+    border: 1px solid rgb(65, 143, 216);
+    padding: 10px;
+    border-radius: 20px;
+    line-height: 1.6em;
+    font-size: 1.05em;
+}
+div.div-dados > h1{
+    text-align: center;
+}
+
+footer{
+    color: black;
+    padding: 10px;
+    text-align: center;
+}
+footer a{
+    color: black;
+    padding: 3px;
+}
+footer a > span{
+    color: rgb(185, 30, 30);
+    text-decoration: underline;
+    transition-duration: .5s;
+}
+footer a:hover{
+    transition-duration: 0.5s;
+    text-shadow: 0px 0px 2px rgba(0, 0, 0, 0.623);
+    box-shadow: 0px 0px 2px  rgb(185, 30, 30);
+    
+}
+
